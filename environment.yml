@@ -1,0 +1,19 @@
+name: merizo
+channels:
+  - pyg
+  - pytorch
+  - dglteam
+  - anaconda
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - pytorch=2.0.1
+  - pytorch-cuda=11.8
+  - scipy
+  - matplotlib
+  - einops
+  - networkx
+  - rotary-embedding-torch
+  - natsort
+  - numpy<2
